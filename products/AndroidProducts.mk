@@ -19,8 +19,9 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
-    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
-
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
+    $(LOCAL_DIR)/vayu/aospa_vayu.mk \
+    
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
@@ -28,4 +29,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
-    aospa_oneplus9pro-userdebug
+    aospa_oneplus9pro-userdebug \
+    aospa_vayu-userdebug
